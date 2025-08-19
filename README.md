@@ -1,7 +1,7 @@
-# Components[
+# Components
 * image-section------>to{Landing--login--singup} //same design //Navlink
 * Menu--------->to{HomePage---------->calender} //same design //Navlink
-]
+
 _________________________________________________
 # Pages[
 
