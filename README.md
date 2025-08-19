@@ -3,7 +3,7 @@
 * Menu--------->to{HomePage---------->calender} //same design //Navlink
 
 _________________________________________________
-# Pages[
+# Pages
 
 * Landing-page
 - image-section(left side)
@@ -34,8 +34,6 @@ _________________________________________________
 - calender-section
 * Error-page //if path is wrong
 -page not found  {Error:404} //special design
-
-]
 _____________________________________________________________________________________
 # App                                                                                             
 ----------
