@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+
+@theme{
+  --color-body: #D9D9D9;
+  --color-outlet: #FFF9F9;
+  --width-root: 1200px;
+  --color-btn:#76DE37;
+  --color-btn2:#EBEBEB;
+  --color-menu:#F4F4F4;
+  --width-menu:346px;
+  --height-menu:700px;
+  --color-search:#EBEBEB;
+  --color-active:#c4c4c4;
+  --color-work:#FF0000;
+  --color-personal:#61FF00;
+  --color-study:#5D7DF0;
+  --height-box_today: 620px;
+}
+.text-shadow-black {
+  text-shadow: 24px 20px 10px rgba(0, 0, 0, 0.2);
+}
+

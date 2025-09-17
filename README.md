@@ -1,54 +1,12 @@
-# Components
-* image-section------>to{Landing--login--singup} //same design //Navlink
-* Menu--------->to{HomePage---------->calender} //same design //Navlink
+# React + Vite
 
-_________________________________________________
-# Pages
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-* Landing-page
-- image-section(left side)
-- Identity-section(right side)
-- button----->to {Homepage}
-- signin----->to {Login page}
-* Login-page
-- image-section(left side)
-- Authentication-section(right side)
-- button------>to {Home page}
-- Don't have an account---->to {signup}
-* signup-page
-- image-section(left side)
-- Authentication-section(right side)
-- button------>to {Home page}
-- Already have an account------>to {Login}
-* Home-page
-- Menu----->{Navigation left side}
-- Main-section
-* Upcoming-page
-- Menu----->{Navigation left side}
-- Task-section(right side) {Header//Task categories}
-* Today-page
-- Menu----->{Navigation left side}
-- Task-section(right side) {Add task, edit or delete}
-* Calender-page
-- Menu----->{Navigation left side}
-- calender-section
-* Error-page //if path is wrong
--page not found  {Error:404} //special design
-_____________________________________________________________________________________
-# App                                                                                             
-----------
-* import all pages
-* Two pathes
-* land---children{ Login  signup}
-* Home---children{ Upcoming  Today  Calender }
-# Outlet
------------
-* file---landroot{image-section--->const + Outlet}
-* file---Homeroot{Menu-section--->const + Outlet}
+Currently, two official plugins are available:
 
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
+## Expanding the ESLint configuration
 
-
-
-
-
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
